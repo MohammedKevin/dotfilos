@@ -23,6 +23,7 @@ install git
 install nmap
 install zsh
 install xclip
+install npm
 install figlet
 install lolcat
 
