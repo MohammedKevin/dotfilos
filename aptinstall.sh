@@ -7,7 +7,7 @@ function install {
 
   if [ $? -ne 0 ]; then
     echo "Installing: ${1}..."
-    sudo apt install -y $1 | sed 's/^/  /'
+    sudo apt install -y -q $1 | sed 's/^/  /'
   else
     echo "Already installed: ${1}"
   fi
