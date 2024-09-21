@@ -10,6 +10,8 @@ ssh-keygen
 
 # Get all upgrades
 sudo apt upgrade -y
+sudo ubuntu-drivers autoinstall
+
 
 
 # Fun hello
